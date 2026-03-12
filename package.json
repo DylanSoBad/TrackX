@@ -1,0 +1,14 @@
+{
+  "name": "x-follower-scanner",
+  "version": "1.0.0",
+  "description": "Automated follower monitoring pipeline for X with Telegram alerts",
+  "main": "scanX.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node scanX.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
